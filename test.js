@@ -5,13 +5,13 @@ var hexToArrayBuffer = require('hex-to-array-buffer')
 
 var testCases = [
   ['00000000', ''],
-  ['fc8a8950', 'test'],
-  ['5466c4d2', 'linus'],
-  ['285c17ef', 'murmur'],
-  ['64809f15', 'veni, vidi, vici'],
-  ['b8bb014b', 'Caesar non supra grammaticos!'],
-  ['4bce5d5c', 'Node.js® is a JavaScript runtime built on Chrome\'s V8 JavaScript engine.'],
-  ['f3dc1fd4', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur mollis orci a consectetur. Maecenas in ornare ligula, vel venenatis mauris.']
+  ['13d26bba', 'test'],
+  ['f72c4e83', 'linus'],
+  ['cd13f373', 'murmur'],
+  ['8e85bb8a', 'veni, vidi, vici'],
+  ['27dd6aa0', 'Caesar non supra grammaticos!'],
+  ['290e9a82', 'Node.js® is a JavaScript runtime built on Chrome\'s V8 JavaScript engine.'],
+  ['ec88f7f7', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur mollis orci a consectetur. Maecenas in ornare ligula, vel venenatis mauris.']
 ]
 
 testCases.forEach(function (testCase) {

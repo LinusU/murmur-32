@@ -25,9 +25,7 @@ murmur32(new ArrayBuffer(10))
 ### murmur32(key: ArrayBuffer | string) => ArrayBuffer
 
 Compute the 32-bit MurmurHash3 of the supplied `key`. If the `key` is given as
-string the [raw bytes that it occupies][javascript-encoding] will be used.
-
-[javascript-encoding]: https://mathiasbynens.be/notes/javascript-encoding
+string it will be [encoded using the UTF8 encoding](https://github.com/LinusU/encode-utf8).
 
 ## See also
 
