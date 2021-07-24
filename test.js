@@ -1,9 +1,9 @@
-var murmur = require('./')
-var assert = require('assert')
-var isEqual = require('arraybuffer-equal')
-var hexToArrayBuffer = require('hex-to-array-buffer')
+import assert from 'node:assert'
+import isEqual from 'arraybuffer-equal'
+import hexToArrayBuffer from 'hex-to-array-buffer'
+import murmur from './index.js'
 
-var testCases = [
+const testCases = [
   ['00000000', ''],
   ['13d26bba', 'test'],
   ['f72c4e83', 'linus'],
